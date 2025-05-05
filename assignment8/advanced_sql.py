@@ -103,7 +103,7 @@ def task3(db_path):
         # Insert data into order table
         order_id = add_order(cursor, employee_id, customer_id)
         # Insert data into line_items table
-        cursor.execute("""SELECT product_id FROM products ORDER BY price desc LIMIT 5""")
+        cursor.execute("""SELECT product_id FROM products ORDER BY price asc LIMIT 5""")
         results = cursor.fetchall()
         for row in results:
             # print(row[0])

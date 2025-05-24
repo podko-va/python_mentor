@@ -1,0 +1,52 @@
+Which sections of the website are restricted for crawling?
+
+Disallow: /w/
+Disallow: /wiki/Special:
+Disallow: /wiki/Talk:
+Disallow: /wiki/User:
+Disallow: /wiki/User_talk:
+Disallow: /wiki/Wikipedia:
+Disallow: /wiki/Wikipedia_talk:
+Disallow: /wiki/File:
+Disallow: /wiki/File_talk:
+Disallow: /wiki/MediaWiki:
+Disallow: /wiki/MediaWiki_talk:
+Disallow: /wiki/Template:
+Disallow: /wiki/Template_talk:
+Disallow: /wiki/Help:
+Disallow: /wiki/Help_talk:
+Disallow: /wiki/Category:
+Disallow: /wiki/Category_talk:
+Disallow: /wiki/Portal:
+Disallow: /wiki/Portal_talk:
+Disallow: /wiki/Book:
+Disallow: /wiki/Book_talk:
+Disallow: /wiki/Draft:
+Disallow: /wiki/Draft_talk:
+Disallow: /wiki/Education_Program:
+Disallow: /wiki/Education_Program_talk:
+Disallow: /wiki/TimedText:
+Disallow: /wiki/TimedText_talk:
+Disallow: /wiki/Module:
+Disallow: /wiki/Module_talk:
+Disallow: /wiki/Gadget:
+Disallow: /wiki/Gadget_talk:
+Disallow: /wiki/Gadget_definition:
+Disallow: /wiki/Gadget_definition_talk:
+Disallow: /wiki/Topic:
+
+Are there specific rules for certain user agents?
+
+Yes. The robots.txt file includes rules specific to different user agents. For example:
+
+Rules for User-agent: * apply to all crawlers.
+
+Rules for User-agent: GPTBot or User-agent: Applebot define what those specific bots are allowed or not allowed to access.
+
+
+Why websites use robots.txt and how it promotes ethical scraping:
+
+Websites use robots.txt files to define which parts of their site can or cannot be accessed by automated web crawlers. 
+This helps protect server resources, reduce traffic overload, and safeguard sensitive or irrelevant content. 
+Respecting robots.txt promotes ethical scraping by ensuring that scrapers do not harm the site's performance 
+or violate its intended use policies.
